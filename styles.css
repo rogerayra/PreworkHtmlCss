@@ -1,0 +1,346 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+.box {
+  padding: 30px 20px;
+
+  color: #fff;
+}
+
+.box .title {
+  margin: 0 0 20px 0;
+  padding: 0;
+}
+
+.box .buttonlink {
+  padding: 8px 20px;
+
+  border-radius: 20px;
+
+  text-decoration: none;
+  color: #fff;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.nav-bar {
+  height: 35px;
+
+  padding: 5px 20px;
+
+  background-color: #c12127;
+
+  color: rgba(255, 255, 255, 0.8);
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.top-left {
+  float: left;
+}
+
+.top-left .acronym {
+  margin-left: 20px;
+}
+
+.top-links {
+  float: right;
+}
+
+.top-links li {
+  display: inline-block;
+
+  margin-left: 10px;
+}
+
+.header {
+  height: 495px;
+
+  margin: 0 auto;
+  padding: 0;
+
+  background-image: url("images/city-scape.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: round;
+  background-color: rgb(32, 101, 136);
+}
+
+.header-search {
+  width: 100%;
+  height: 45px;
+
+  margin: 0 auto;
+  padding: 10px 20px;
+
+  text-align: center;
+}
+
+.header-search .logo-npm {
+  float: left;
+
+  height: 45px;
+
+  margin: 0 auto;
+}
+
+.header-search .header-search-form-container {
+  width: 80%;
+  height: 45px;
+
+  margin: 0 auto;
+
+  text-align: center;
+}
+
+.header-search .header-search-form {
+  width: 100%;
+  height: 100%;
+
+  margin: 0 auto;
+
+  text-align: center;
+}
+
+.header-search-style {
+  background-color: rgb(32, 82, 111);
+
+  border: 1px solid rgba(255, 255, 255, 0.2);
+
+  color: #fff;
+  font-size: 20px;
+}
+
+.header-search .header-search-text {
+  float: left;
+
+  width: 95%;
+  height: 100%;
+
+  padding: 0 5px;
+}
+
+.header-search .header-search-button {
+  float: right;
+
+  width: 5%;
+  height: 100%;
+
+  margin: 0;
+}
+
+.header-search .signup-container {
+  float: right;
+
+  margin: 0 auto;
+
+  text-align: center;
+}
+
+.header-search .signup-link {
+  float: left;
+
+  width: auto;
+
+  margin: 10px;
+
+  text-decoration: none;
+  color: rgb(211, 222, 228);
+  font-size: 15px;
+}
+
+.header-search .bear-logo {
+  float: right;
+
+  height: 45px;
+}
+
+.header-content {
+  position: relative;
+
+  height: 450px;
+}
+
+.header-content .box {
+  position: absolute;
+  top: 100px;
+  left: 25%;
+
+  width: 27%;
+  height: 100%;
+}
+
+.header-content .text {
+  margin: 0 0 30px 0;
+  padding: 0;
+}
+
+.header-content .buttonlink {
+  background-color: rgb(240, 146, 51);
+}
+
+#collaboration {
+  position: relative;
+
+  width: 100%;
+  height: 450px;
+
+  padding: 0;
+
+  background-color: rgb(39, 53, 71);
+}
+
+#collaboration .container {
+  position: absolute;
+  top: 70px;
+  left: 25%;
+
+  width: 60%;
+}
+
+#collaboration .image {
+  float: left;
+
+  width: 500px;
+}
+
+#collaboration .box {
+  float: left;
+
+  margin-left: 30px;
+}
+
+#collaboration .list {
+  margin: 0 0 30px 0;
+  padding: 0;
+}
+
+#collaboration .list-item {
+  margin: 0 0 15px 20px;
+  padding: 0;
+}
+
+#collaboration .buttonlink {
+  background-color: rgb(203, 56, 55);
+}
+
+#collaboration .text {
+  margin: 15px 0 0 0;
+  padding: 0;
+}
+
+#collaboration .text-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+#what-is-npm {
+  position: relative;
+  height: 450px;
+
+  background-image: url("images/forklift.svg");
+  background-position-x: 0px;
+  background-position-y: 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#what-is-npm .box {
+  position: absolute;
+  top: 100px;
+  left: 25%;
+
+  width: 20%;
+}
+
+#what-is-npm .text {
+  margin: 0 0 30px 0;
+  padding: 0;
+}
+
+#what-is-npm .buttonlink {
+  background-color: rgb(49, 68, 88);
+}
+
+#registry {
+  height: 450px;
+
+  text-align: center;
+
+  color: rgb(135, 145, 156);
+}
+
+#registry .container {
+  margin: 0 auto;
+
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+#registry .registry-header {
+  width: 60%;
+
+  margin: 0 auto;
+}
+
+#registry .title {
+  padding: 0 0 30px 0;
+
+  color: rgb(83, 88, 98);
+}
+
+#registry .text {
+  padding: 0 0 30px 0;
+}
+
+#registry .link {
+  color: rgb(208, 74, 73);
+}
+
+#registry p {
+  padding: 20px 0;
+}
+
+#registry .articles {
+  width: 50%;
+
+  margin: 0 auto;
+
+  text-align: center;
+}
+
+#registry .article {
+  float: left;
+
+  width: 31%;
+
+  margin: 0 auto;
+  padding: 0 1% 0 1%;
+}
